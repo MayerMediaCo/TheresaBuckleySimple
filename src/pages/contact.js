@@ -8,8 +8,11 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <div className="container">
+      <div className="section">
+        <h1 className="title has-text-centered">Contact Me</h1>
+      </div>
       <section className="section">
-          <ContactForm />
+        <ContactForm />
       </section>
     </div>
   </Layout>

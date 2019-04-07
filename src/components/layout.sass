@@ -1,0 +1,80 @@
+@import "~bulma/sass/utilities/initial-variables"
+@import url(https://fonts.googleapis.com/css?family=Alex+Brush|Open+Sans)
+
+$dark-black: #050505
+$black: #1E1E20
+$light-black: #333333
+$dark-grey: #8E9EA4
+$gray: #bbc3c6
+$light-gray: #CCCCCC
+$red: #962715
+$dark-white: #EDEDED
+$white: #f3f3f3
+$light-white: #f1f1f1
+
+$family-primary: Open Sans
+$family-secondary: Alex Brush
+
+$link: $red
+
+$body-background-color: $white
+
+$navbar-background-color: $gray
+$navbar-item-hover-background-color: $white
+$navbar-item-color: $red
+$navbar-burger-color: $red
+
+$input-background-color: $dark-white
+$input-icon-color: $black
+$input-icon-active-color: $red
+$input-color: $black
+
+$label-color: $black
+
+$card-background-color: $gray
+$card-content-background-color: $gray
+
+$footer-background-color: $gray
+
+
+nav
+  border-bottom: $red solid 0.7vmin
+
+a:link, a:visited, a:active
+  text-decoration: none
+  color: $red
+
+a:hover
+  text-decoration: none
+  color: $black
+
+.navbar-brand
+  font-family: $family-secondary !important
+  font-size: 24px
+
+.hero
+  background-color: $black
+  .title
+    color: $white
+    font-family: $family-secondary
+  .subtitle
+    color: $white
+
+.hero-portrait
+  max-width: 350px
+  margin: auto
+
+.map
+  width: 500px
+  height: 500px
+  margin: auto
+
+.contact-container
+  background-color: $light-white
+  padding: 50px
+  box-shadow: 10px 10px 20px 5px rgba(237,237,237,0.6)
+
+.form-button
+  margin: 25px 0px
+
+@import "~bulma"

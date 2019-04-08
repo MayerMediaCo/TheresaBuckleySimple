@@ -22,7 +22,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="column">
-        <p>
+        <p className="has-text-centered">
           Website created by <a href="https://www.mayermediaco.com">Mayer Media Co.</a>
         </p>
       </div>
